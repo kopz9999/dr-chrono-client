@@ -7,5 +7,5 @@ module.exports = {
   filename: 'scripts/[name].[hash].js',
   libraryTarget: "var",
   // name of the global var: "Foo"
-  library: "Foo"
+  library: "DrChronoClient"
 };

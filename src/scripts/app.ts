@@ -1,10 +1,5 @@
 import "../styles/base.scss";
 
-import { Greeter } from "./greeter";
+export { Base } from "./base";
 
-export const greeter: Greeter = new Greeter("dr-chrono-client");
-
-const el = document.getElementById("greeting");
-if (el) {
-  el.innerHTML = greeter.greet();
-}
+import popsicle = require("popsicle/dist/common");
